@@ -1,0 +1,81 @@
+body {
+	
+	font-size: 12px;
+	margin: 0 auto;
+	max-width: 1078px;
+	min-width: 1078px;
+	font-family: 'Oswald', sans-serif;
+
+
+}
+
+body header {
+
+	background: #0B2161;
+}
+
+#aero {
+	width: 800px;
+	margin-left: 100px;
+	margin-bottom: 5px
+}
+
+#panelEntrada {
+
+	width: 350px;
+}
+
+body article section {
+
+	display: inline-block;
+	padding-right: 50px;
+}
+
+body nav button {
+
+	height: 270px;
+	width: 208px;
+	
+}
+
+body nav {
+
+	width: 1500px;
+}
+
+.letras {
+
+	margin-bottom: 35px;
+}
+
+#botonrojo {
+
+	margin-bottom: 60px;
+}
+
+#cartas {
+
+	margin-bottom: 40px;
+}
+
+#telcel {
+
+	margin-bottom: 220px;
+	margin-left: 22px;
+}
+
+#seccionmarco {
+ border: 1px solid #000088;
+ 
+}
+
+#tercerseccion {
+
+	width: 50%;
+}
+
+.botonnegro {
+
+	background: black;
+	color:white;
+}

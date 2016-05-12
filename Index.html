@@ -1,14 +1,108 @@
-@extends('layouts.main')
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>EXAMENNNNN</title>
 
-@section('title', 'Inicio')
+<link rel="stylesheet" href="css/bootstrap/css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="css/estilos.css">
 
-@section('content')
-      <div class="row feature-box">
-        <div class="span12 cnt-title">
-            <h1>Sistema de administración de crias.</h1>
-        </div>
-        @if(Auth::user()->type == 'A')
-        	@include('layouts.users.admin')
-        @endif
-      </div>
-@endsection
+<link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+
+  <header>
+
+
+      
+        <img src="img/trackTender.png">
+        <img id="aero" src="img/aeromexico.png">
+      
+
+
+
+
+  </header>
+
+  <nav>  
+
+  	
+    <button class="btn btn-default"><h1><span class="glyphicon glyphicon-search"></span></h1>SEARCH TENDERS <br> <br> <br> ALL NEW AND LIVE TENDERS</button>
+    <button class="btn btn-default"><h1><span class="glyphicon glyphicon-search"></span></h1>NEW TENDERS LIVE TENDERS</button>
+    <button class="btn btn-default"><h1><span class="glyphicon glyphicon-search"></span></h1>TENDERS BY INDUSTRY</button>
+    <button class="btn btn-default"><h1><span class="glyphicon glyphicon-search"></span></h1>BROWSE BY STATE</button>
+    <button class="btn btn-default"><h1><span class="glyphicon glyphicon-search"></span></h1>BROWSE BY AUTHORITY</button>
+
+    
+  </nav>
+
+
+
+  <br>
+  <br>
+
+
+ <article id="articulo">
+
+ <section>
+<div class="panel panel-default" id="panelEntrada">
+  <div class="panel-heading">
+
+    <h3 class="panel-title">My account</h3>
+  </div>
+  <div class="panel-body">
+    Username/Email:
+    <br>
+    <input type="text">
+    <br>
+    Contraseña
+    <br>
+    <input type="password">
+    <br>
+    <br>
+    <button class="btn btn-info">Login</button>
+    <button class="btn btn-default">Clear</button>
+
+    <br>
+    <br>
+    <button class= "btn btn-success"> <span class="glyphicon glyphicon-user">Free Registration </button>
+    |
+    <button class="btn btn-link">Forgot Password</button>
+  </div>
+</div>
+
+ </section>
+  
+
+  <section  id="seccionmarco" >
+
+  <div class="letras">
+   <h3>Get Free Alerts Daily <br>
+    in your Inbox</h3>
+  </div>
+
+
+
+   <button id="botonrojo" class= "btn btn-danger"> Set Free Alerts </button>
+
+   <img id="cartas" src="img/alertsDaily.png">
+
+
+     <div class="botonnegro">Tenders of your industry & products</div>
+
+ </section>
+
+
+  <section id="tercersección">
+
+  	<img id="telcel" src="img/telcel.png">
+
+  </section>
+</article>
+
+
+
+</body>
+
+</html>
